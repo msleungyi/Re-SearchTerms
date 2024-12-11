@@ -1,0 +1,694 @@
+,term,avg_similarity,total_definitions,cluster,cluster_name,tokens,types,type_to_token_ratio,cluster_name_wrapped
+1,AMNESIA,NA,1,6,"Data sharing, reproducibility, and computational tools",24,18,0.75,"Data sharing,
+reproducibility, and
+computational tools"
+2,ARRIVE Guidelines,NA,1,2,Replication and research challenges,52,40,0.769230769,"Replication and
+research challenges"
+3,Abstract Bias,NA,1,2,Replication and research challenges,46,31,0.673913043,"Replication and
+research challenges"
+4,Academic Impact,0.604190309,2,2,Replication and research challenges,57,36,0.631578947,"Replication and
+research challenges"
+5,Accessibility,0.325506089,122,4,"Research design, validity, and theoretical frameworks",1849,724,0.391563007,"Research design,
+validity, and
+theoretical
+frameworks"
+6,Ad hominem bias,0.327578093,3,4,"Research design, validity, and theoretical frameworks",64,50,0.78125,"Research design,
+validity, and
+theoretical
+frameworks"
+7,Adversarial (collaborative) commentary,NA,1,1,Research credit,42,39,0.928571429,Research credit
+8,Adversarial collaboration,NA,1,2,Replication and research challenges,30,30,1,"Replication and
+research challenges"
+9,Affiliation bias,NA,1,1,Research credit,25,22,0.88,Research credit
+10,Aleatoric uncertainty,NA,1,3,Statistical analysis and hypothesis testing,24,23,0.958333333,"Statistical analysis
+and hypothesis
+testing"
+11,Altmetrics,0.544245318,6,1,Research credit,101,62,0.613861386,Research credit
+12,Analytic Flexibility,NA,1,3,Statistical analysis and hypothesis testing,47,38,0.808510638,"Statistical analysis
+and hypothesis
+testing"
+13,Anonymity,0.333268726,41,4,"Research design, validity, and theoretical frameworks",482,218,0.452282158,"Research design,
+validity, and
+theoretical
+frameworks"
+14,Article Processing Charge (APC),NA,1,5,Open science and collaborative practices,83,73,0.879518072,"Open science and
+collaborative
+practices"
+15,Authorship,0.375025785,6,1,Research credit,126,92,0.73015873,Research credit
+16,Auxiliary Hypothesis,NA,1,3,Statistical analysis and hypothesis testing,34,29,0.852941176,"Statistical analysis
+and hypothesis
+testing"
+17,BIDS data structure,NA,1,6,"Data sharing, reproducibility, and computational tools",46,37,0.804347826,"Data sharing,
+reproducibility, and
+computational tools"
+18,BIZARRE,NA,1,2,Replication and research challenges,35,29,0.828571429,"Replication and
+research challenges"
+19,Badges (Open Science),NA,1,5,Open science and collaborative practices,58,43,0.74137931,"Open science and
+collaborative
+practices"
+20,Bayes Factor,NA,1,3,Statistical analysis and hypothesis testing,67,44,0.656716418,"Statistical analysis
+and hypothesis
+testing"
+21,Bayesian Inference,0.544585726,8,3,Statistical analysis and hypothesis testing,151,91,0.602649007,"Statistical analysis
+and hypothesis
+testing"
+22,Bayesian Parameter Estimation,NA,1,3,Statistical analysis and hypothesis testing,77,59,0.766233766,"Statistical analysis
+and hypothesis
+testing"
+23,Bottom-up approach (to Open Scholarship),NA,1,2,Replication and research challenges,62,57,0.919354839,"Replication and
+research challenges"
+24,Bracketing Interviews,NA,1,2,Replication and research challenges,38,31,0.815789474,"Replication and
+research challenges"
+25,Bropenscience,NA,1,2,Replication and research challenges,60,56,0.933333333,"Replication and
+research challenges"
+26,CARKing,NA,1,2,Replication and research challenges,25,20,0.8,"Replication and
+research challenges"
+27,CKAN,NA,1,5,Open science and collaborative practices,29,25,0.862068966,"Open science and
+collaborative
+practices"
+28,COAR Community Framework for Good Practices in Repositories,NA,1,2,Replication and research challenges,26,24,0.923076923,"Replication and
+research challenges"
+29,CRediT,NA,1,1,Research credit,74,57,0.77027027,Research credit
+30,Center for Open Science (COS),NA,1,5,Open science and collaborative practices,25,24,0.96,"Open science and
+collaborative
+practices"
+31,Citation Diversity Statement,NA,1,1,Research credit,47,42,0.893617021,Research credit
+32,Citation bias,NA,1,1,Research credit,43,38,0.88372093,Research credit
+33,Citizen Science,0.57378017,9,5,Open science and collaborative practices,202,119,0.589108911,"Open science and
+collaborative
+practices"
+34,Co-production,0.365477226,15,4,"Research design, validity, and theoretical frameworks",224,145,0.647321429,"Research design,
+validity, and
+theoretical
+frameworks"
+35,Code review,0.590726418,3,6,"Data sharing, reproducibility, and computational tools",72,61,0.847222222,"Data sharing,
+reproducibility, and
+computational tools"
+36,Codebook,0.356190269,4,6,"Data sharing, reproducibility, and computational tools",74,65,0.878378378,"Data sharing,
+reproducibility, and
+computational tools"
+37,Collaborative Replication and Education Project (CREP),NA,1,2,Replication and research challenges,47,37,0.787234043,"Replication and
+research challenges"
+38,Committee on Best Practices in Data Analysis and Sharing (COBIDAS),NA,1,6,"Data sharing, reproducibility, and computational tools",37,32,0.864864865,"Data sharing,
+reproducibility, and
+computational tools"
+39,Communality,0.234639532,5,4,"Research design, validity, and theoretical frameworks",48,45,0.9375,"Research design,
+validity, and
+theoretical
+frameworks"
+40,Community Projects,NA,1,2,Replication and research challenges,44,37,0.840909091,"Replication and
+research challenges"
+41,Compendium,0.160584548,8,6,"Data sharing, reproducibility, and computational tools",93,77,0.827956989,"Data sharing,
+reproducibility, and
+computational tools"
+42,Computational reproducibility,NA,1,2,Replication and research challenges,56,46,0.821428571,"Replication and
+research challenges"
+43,Conceptual replication,NA,1,2,Replication and research challenges,52,43,0.826923077,"Replication and
+research challenges"
+44,Confirmation bias,0.636911307,9,3,Statistical analysis and hypothesis testing,104,56,0.538461538,"Statistical analysis
+and hypothesis
+testing"
+45,Confirmatory analyses,NA,1,2,Replication and research challenges,49,41,0.836734694,"Replication and
+research challenges"
+46,Conflict of interest,0.443599136,6,4,"Research design, validity, and theoretical frameworks",177,131,0.740112994,"Research design,
+validity, and
+theoretical
+frameworks"
+47,Consortium authorship,NA,1,1,Research credit,72,56,0.777777778,Research credit
+48,Constraints on Generality (COG),NA,1,2,Replication and research challenges,43,37,0.860465116,"Replication and
+research challenges"
+49,Construct validity,0.316621521,6,4,"Research design, validity, and theoretical frameworks",99,81,0.818181818,"Research design,
+validity, and
+theoretical
+frameworks"
+50,Content validity,0.38932933,8,4,"Research design, validity, and theoretical frameworks",110,76,0.690909091,"Research design,
+validity, and
+theoretical
+frameworks"
+51,Contribution,0.205597985,7,4,"Research design, validity, and theoretical frameworks",107,91,0.85046729,"Research design,
+validity, and
+theoretical
+frameworks"
+52,Corrigendum,0.503119556,3,3,Statistical analysis and hypothesis testing,60,46,0.766666667,"Statistical analysis
+and hypothesis
+testing"
+53,Creative Commons (CC) license,0.507597155,5,5,Open science and collaborative practices,182,109,0.598901099,"Open science and
+collaborative
+practices"
+54,Creative destruction approach to replication,NA,1,2,Replication and research challenges,33,29,0.878787879,"Replication and
+research challenges"
+55,Credibility revolution,NA,1,2,Replication and research challenges,30,25,0.833333333,"Replication and
+research challenges"
+56,Criterion validity,0.41800167,2,3,Statistical analysis and hypothesis testing,62,47,0.758064516,"Statistical analysis
+and hypothesis
+testing"
+57,Crowdsourced Research,0.609350851,2,5,Open science and collaborative practices,155,122,0.787096774,"Open science and
+collaborative
+practices"
+58,Cultural taxation,0.553872486,3,4,"Research design, validity, and theoretical frameworks",105,84,0.8,"Research design,
+validity, and
+theoretical
+frameworks"
+59,Cumulative science,NA,1,2,Replication and research challenges,45,37,0.822222222,"Replication and
+research challenges"
+60,DOI (digital object identifier),0.369652489,3,6,"Data sharing, reproducibility, and computational tools",70,62,0.885714286,"Data sharing,
+reproducibility, and
+computational tools"
+61,DORA,0.555508646,2,2,Replication and research challenges,53,40,0.754716981,"Replication and
+research challenges"
+62,Data Access and Research Transparency (DA-RT),NA,1,5,Open science and collaborative practices,82,63,0.768292683,"Open science and
+collaborative
+practices"
+63,Data management plan (DMP),0.741155808,2,6,"Data sharing, reproducibility, and computational tools",43,30,0.697674419,"Data sharing,
+reproducibility, and
+computational tools"
+64,Data sharing,0.503212245,3,6,"Data sharing, reproducibility, and computational tools",79,62,0.784810127,"Data sharing,
+reproducibility, and
+computational tools"
+65,Data visualisation,0.400518286,11,6,"Data sharing, reproducibility, and computational tools",140,103,0.735714286,"Data sharing,
+reproducibility, and
+computational tools"
+66,Decolonisation,0.453761227,4,4,"Research design, validity, and theoretical frameworks",142,116,0.816901408,"Research design,
+validity, and
+theoretical
+frameworks"
+67,Demarcation criterion,NA,1,2,Replication and research challenges,40,36,0.9,"Replication and
+research challenges"
+68,Direct replication,NA,1,2,Replication and research challenges,33,28,0.848484848,"Replication and
+research challenges"
+69,Diversity,0.309464387,115,4,"Research design, validity, and theoretical frameworks",1687,595,0.352697095,"Research design,
+validity, and
+theoretical
+frameworks"
+70,Double consciousness,0.424118795,2,4,"Research design, validity, and theoretical frameworks",81,65,0.802469136,"Research design,
+validity, and
+theoretical
+frameworks"
+71,Double-blind peer review,NA,1,1,Research credit,55,50,0.909090909,Research credit
+72,Early career researchers (ECRs),NA,1,1,Research credit,47,43,0.914893617,Research credit
+73,Economic and societal impact,NA,1,1,Research credit,14,13,0.928571429,Research credit
+74,Embargo Period,NA,1,5,Open science and collaborative practices,68,55,0.808823529,"Open science and
+collaborative
+practices"
+75,Epistemic uncertainty,0.649337045,2,3,Statistical analysis and hypothesis testing,45,33,0.733333333,"Statistical analysis
+and hypothesis
+testing"
+76,Epistemology,0.420442112,62,4,"Research design, validity, and theoretical frameworks",625,261,0.4176,"Research design,
+validity, and
+theoretical
+frameworks"
+77,Equity,0.262028812,91,4,"Research design, validity, and theoretical frameworks",1112,583,0.524280576,"Research design,
+validity, and
+theoretical
+frameworks"
+78,Equivalence Testing,NA,1,3,Statistical analysis and hypothesis testing,58,45,0.775862069,"Statistical analysis
+and hypothesis
+testing"
+79,Error detection,0.230811155,3,3,Statistical analysis and hypothesis testing,113,93,0.82300885,"Statistical analysis
+and hypothesis
+testing"
+80,Evidence Synthesis,0.626501085,2,2,Replication and research challenges,114,81,0.710526316,"Replication and
+research challenges"
+81,Exploratory data analysis,0.515885377,5,6,"Data sharing, reproducibility, and computational tools",115,80,0.695652174,"Data sharing,
+reproducibility, and
+computational tools"
+82,External Validity,0.459245732,3,4,"Research design, validity, and theoretical frameworks",71,56,0.788732394,"Research design,
+validity, and
+theoretical
+frameworks"
+83,FAIR principles,NA,1,5,Open science and collaborative practices,26,19,0.730769231,"Open science and
+collaborative
+practices"
+84,FORRT,NA,1,5,Open science and collaborative practices,61,50,0.819672131,"Open science and
+collaborative
+practices"
+85,Face validity,0.471564052,5,3,Statistical analysis and hypothesis testing,72,47,0.652777778,"Statistical analysis
+and hypothesis
+testing"
+86,Feminist psychology,NA,1,2,Replication and research challenges,46,38,0.826086957,"Replication and
+research challenges"
+87,First-last-author-emphasis norm (FLAE),NA,1,1,Research credit,34,21,0.617647059,Research credit
+88,Free Our Knowledge Platform,NA,1,5,Open science and collaborative practices,40,33,0.825,"Open science and
+collaborative
+practices"
+89,G*Power,NA,1,3,Statistical analysis and hypothesis testing,30,27,0.9,"Statistical analysis
+and hypothesis
+testing"
+90,Gaming (the system),0.197760455,4,4,"Research design, validity, and theoretical frameworks",90,81,0.9,"Research design,
+validity, and
+theoretical
+frameworks"
+91,Garden of forking paths,NA,1,3,Statistical analysis and hypothesis testing,116,85,0.732758621,"Statistical analysis
+and hypothesis
+testing"
+92,General Data Protection Regulation (GDPR),0.638463791,8,6,"Data sharing, reproducibility, and computational tools",177,103,0.581920904,"Data sharing,
+reproducibility, and
+computational tools"
+93,Generalizability,0.344077367,4,4,"Research design, validity, and theoretical frameworks",39,32,0.820512821,"Research design,
+validity, and
+theoretical
+frameworks"
+94,Gift (or Guest) Authorship,NA,1,1,Research credit,54,44,0.814814815,Research credit
+95,Git,0.723553229,4,6,"Data sharing, reproducibility, and computational tools",155,76,0.490322581,"Data sharing,
+reproducibility, and
+computational tools"
+96,Goodhartâs Law,0.566561687,2,2,Replication and research challenges,65,57,0.876923077,"Replication and
+research challenges"
+97,H-index,0.633456688,6,1,Research credit,126,59,0.468253968,Research credit
+98,HARKing,NA,1,2,Replication and research challenges,39,31,0.794871795,"Replication and
+research challenges"
+99,Hackathon,0.556774046,5,6,"Data sharing, reproducibility, and computational tools",103,77,0.747572816,"Data sharing,
+reproducibility, and
+computational tools"
+100,Hidden Moderators,NA,1,2,Replication and research challenges,24,23,0.958333333,"Replication and
+research challenges"
+101,Hypothesis,0.409976631,9,3,Statistical analysis and hypothesis testing,135,97,0.718518519,"Statistical analysis
+and hypothesis
+testing"
+102,Ideological bias,NA,1,2,Replication and research challenges,56,50,0.892857143,"Replication and
+research challenges"
+103,Incentive structure,0.480297168,3,4,"Research design, validity, and theoretical frameworks",83,74,0.891566265,"Research design,
+validity, and
+theoretical
+frameworks"
+104,Inclusion,0.255026632,95,4,"Research design, validity, and theoretical frameworks",1237,555,0.448666128,"Research design,
+validity, and
+theoretical
+frameworks"
+105,Induction,0.155245892,29,4,"Research design, validity, and theoretical frameworks",302,220,0.728476821,"Research design,
+validity, and
+theoretical
+frameworks"
+106,Interaction Fallacy,NA,1,3,Statistical analysis and hypothesis testing,29,22,0.75862069,"Statistical analysis
+and hypothesis
+testing"
+107,Interlocking,0.243366907,3,4,"Research design, validity, and theoretical frameworks",65,60,0.923076923,"Research design,
+validity, and
+theoretical
+frameworks"
+108,Internal Validity,NA,1,2,Replication and research challenges,47,42,0.893617021,"Replication and
+research challenges"
+109,Intersectionality,0.465816144,69,4,"Research design, validity, and theoretical frameworks",1431,502,0.350803634,"Research design,
+validity, and
+theoretical
+frameworks"
+110,JASP,0.730907712,2,6,"Data sharing, reproducibility, and computational tools",63,43,0.682539683,"Data sharing,
+reproducibility, and
+computational tools"
+111,JSON file,0.468432379,19,6,"Data sharing, reproducibility, and computational tools",402,140,0.348258706,"Data sharing,
+reproducibility, and
+computational tools"
+112,JabRef,NA,1,5,Open science and collaborative practices,24,22,0.916666667,"Open science and
+collaborative
+practices"
+113,Jamovi,NA,1,6,"Data sharing, reproducibility, and computational tools",28,23,0.821428571,"Data sharing,
+reproducibility, and
+computational tools"
+114,Journal Impact Factor,0.767017968,5,1,Research credit,126,47,0.373015873,Research credit
+115,Knowledge acquisition,0.2671173,2,6,"Data sharing, reproducibility, and computational tools",36,30,0.833333333,"Data sharing,
+reproducibility, and
+computational tools"
+116,Likelihood Principle,NA,1,3,Statistical analysis and hypothesis testing,37,28,0.756756757,"Statistical analysis
+and hypothesis
+testing"
+117,Likelihood function,0.461404182,2,3,Statistical analysis and hypothesis testing,79,46,0.582278481,"Statistical analysis
+and hypothesis
+testing"
+118,Literature Review,0.415973165,3,2,Replication and research challenges,105,83,0.79047619,"Replication and
+research challenges"
+119,Manel,NA,1,1,Research credit,30,29,0.966666667,Research credit
+120,Many Labs,NA,1,2,Replication and research challenges,45,40,0.888888889,"Replication and
+research challenges"
+121,Many authors,NA,1,2,Replication and research challenges,51,46,0.901960784,"Replication and
+research challenges"
+122,Massive Open Online Courses (MOOCs),0.594024833,10,5,Open science and collaborative practices,220,152,0.690909091,"Open science and
+collaborative
+practices"
+123,Massively Open Online Papers (MOOPs),NA,1,1,Research credit,14,14,1,Research credit
+124,Matthew effect (in science),0.35461721,4,4,"Research design, validity, and theoretical frameworks",123,100,0.81300813,"Research design,
+validity, and
+theoretical
+frameworks"
+125,Meta-analysis,0.44291646,27,3,Statistical analysis and hypothesis testing,377,204,0.541114058,"Statistical analysis
+and hypothesis
+testing"
+126,Meta-science or Meta-research,0.631617976,3,2,Replication and research challenges,42,29,0.69047619,"Replication and
+research challenges"
+127,Metadata,0.464488838,102,6,"Data sharing, reproducibility, and computational tools",1678,623,0.371275328,"Data sharing,
+reproducibility, and
+computational tools"
+128,Model (computational),0.523808306,9,6,"Data sharing, reproducibility, and computational tools",105,65,0.619047619,"Data sharing,
+reproducibility, and
+computational tools"
+129,Model (philosophy),NA,1,3,Statistical analysis and hypothesis testing,32,30,0.9375,"Statistical analysis
+and hypothesis
+testing"
+130,Model (statistical),0.420310155,6,3,Statistical analysis and hypothesis testing,106,62,0.58490566,"Statistical analysis
+and hypothesis
+testing"
+131,Multi-Analyst Studies,NA,1,2,Replication and research challenges,50,43,0.86,"Replication and
+research challenges"
+132,Multiplicity,0.154170778,8,4,"Research design, validity, and theoretical frameworks",97,75,0.773195876,"Research design,
+validity, and
+theoretical
+frameworks"
+133,Multiverse analysis,NA,1,3,Statistical analysis and hypothesis testing,83,49,0.590361446,"Statistical analysis
+and hypothesis
+testing"
+134,Name Ambiguity Problem,0.616956518,2,1,Research credit,60,48,0.8,Research credit
+135,Named entity-based Text Anonymization for Open Science (NETANOS),NA,1,1,Research credit,31,31,1,Research credit
+136,"Non-Intervention, Reproducible, and Open Systematic Reviews (NIRO-SR)",NA,1,2,Replication and research challenges,40,31,0.775,"Replication and
+research challenges"
+137,Null Hypothesis Significance Testing (NHST),0.442392811,2,3,Statistical analysis and hypothesis testing,80,68,0.85,"Statistical analysis
+and hypothesis
+testing"
+138,ORCID (Open Researcher and Contributor ID),0.569789578,3,1,Research credit,66,50,0.757575758,Research credit
+139,Objectivity,0.211632807,7,4,"Research design, validity, and theoretical frameworks",114,95,0.833333333,"Research design,
+validity, and
+theoretical
+frameworks"
+140,Ontology (Artificial Intelligence),0.448089212,266,6,"Data sharing, reproducibility, and computational tools",5342,1013,0.189629352,"Data sharing,
+reproducibility, and
+computational tools"
+141,Open Code,NA,1,6,"Data sharing, reproducibility, and computational tools",45,37,0.822222222,"Data sharing,
+reproducibility, and
+computational tools"
+142,Open Data,0.466771254,23,6,"Data sharing, reproducibility, and computational tools",382,169,0.442408377,"Data sharing,
+reproducibility, and
+computational tools"
+143,Open Educational Resources (OER) Commons,NA,1,5,Open science and collaborative practices,35,28,0.8,"Open science and
+collaborative
+practices"
+144,Open Educational Resources (OERs),0.671064639,6,5,Open science and collaborative practices,110,76,0.690909091,"Open science and
+collaborative
+practices"
+145,Open Licenses,NA,1,5,Open science and collaborative practices,60,47,0.783333333,"Open science and
+collaborative
+practices"
+146,Open Material,NA,1,5,Open science and collaborative practices,45,40,0.888888889,"Open science and
+collaborative
+practices"
+147,Open Peer Review,0.686481016,2,1,Research credit,56,41,0.732142857,Research credit
+148,Open Scholarship,0.568761951,4,5,Open science and collaborative practices,71,54,0.76056338,"Open science and
+collaborative
+practices"
+149,Open Scholarship Knowledge Base,NA,1,5,Open science and collaborative practices,26,19,0.730769231,"Open science and
+collaborative
+practices"
+150,Open Science,0.508966469,8,5,Open science and collaborative practices,217,125,0.576036866,"Open science and
+collaborative
+practices"
+151,Open Science Framework,NA,1,5,Open science and collaborative practices,29,26,0.896551724,"Open science and
+collaborative
+practices"
+152,Open Source software,0.523817159,51,6,"Data sharing, reproducibility, and computational tools",1266,341,0.269352291,"Data sharing,
+reproducibility, and
+computational tools"
+153,Open access,0.477810926,45,5,Open science and collaborative practices,828,300,0.362318841,"Open science and
+collaborative
+practices"
+154,Open washing,0.472690095,2,5,Open science and collaborative practices,64,47,0.734375,"Open science and
+collaborative
+practices"
+155,OpenNeuro,NA,1,6,"Data sharing, reproducibility, and computational tools",22,21,0.954545455,"Data sharing,
+reproducibility, and
+computational tools"
+156,Optional Stopping,NA,1,3,Statistical analysis and hypothesis testing,54,43,0.796296296,"Statistical analysis
+and hypothesis
+testing"
+157,Overlay Journal,NA,1,5,Open science and collaborative practices,35,32,0.914285714,"Open science and
+collaborative
+practices"
+158,P-curve,NA,1,3,Statistical analysis and hypothesis testing,83,59,0.710843373,"Statistical analysis
+and hypothesis
+testing"
+159,P-hacking,0.514381673,2,3,Statistical analysis and hypothesis testing,43,35,0.813953488,"Statistical analysis
+and hypothesis
+testing"
+160,PARKing,NA,1,2,Replication and research challenges,27,25,0.925925926,"Replication and
+research challenges"
+161,PCI (Peer Community In),NA,1,5,Open science and collaborative practices,40,33,0.825,"Open science and
+collaborative
+practices"
+162,PCI Registered Reports,NA,1,2,Replication and research challenges,70,59,0.842857143,"Replication and
+research challenges"
+163,PREPARE Guidelines,NA,1,2,Replication and research challenges,25,21,0.84,"Replication and
+research challenges"
+164,PRO (peer review openness) initiative,NA,1,5,Open science and collaborative practices,41,34,0.829268293,"Open science and
+collaborative
+practices"
+165,Papermill,0.300295487,2,2,Replication and research challenges,60,55,0.916666667,"Replication and
+research challenges"
+166,Paradata,0.576937849,4,6,"Data sharing, reproducibility, and computational tools",257,121,0.470817121,"Data sharing,
+reproducibility, and
+computational tools"
+167,Participatory Research,0.506890798,2,2,Replication and research challenges,47,41,0.872340426,"Replication and
+research challenges"
+168,Patient and Public Involvement (PPI),NA,1,2,Replication and research challenges,53,48,0.905660377,"Replication and
+research challenges"
+169,Paywall,0.497659584,3,5,Open science and collaborative practices,33,29,0.878787879,"Open science and
+collaborative
+practices"
+170,Plan S,NA,1,5,Open science and collaborative practices,74,54,0.72972973,"Open science and
+collaborative
+practices"
+171,Positionality,0.387081257,14,4,"Research design, validity, and theoretical frameworks",243,147,0.604938272,"Research design,
+validity, and
+theoretical
+frameworks"
+172,Positionality Map,NA,1,2,Replication and research challenges,59,47,0.796610169,"Replication and
+research challenges"
+173,Post Hoc,0.116334333,2,3,Statistical analysis and hypothesis testing,42,32,0.761904762,"Statistical analysis
+and hypothesis
+testing"
+174,Post Publication Peer Review,NA,1,1,Research credit,19,17,0.894736842,Research credit
+175,Posterior distribution,0.530142643,3,3,Statistical analysis and hypothesis testing,52,40,0.769230769,"Statistical analysis
+and hypothesis
+testing"
+176,Predatory Publishing,0.742148584,2,1,Research credit,92,69,0.75,Research credit
+177,Preprint,0.489379192,3,5,Open science and collaborative practices,73,59,0.808219178,"Open science and
+collaborative
+practices"
+178,Preregistration,0.351936373,3,2,Replication and research challenges,95,76,0.8,"Replication and
+research challenges"
+179,Preregistration Pledge,NA,1,5,Open science and collaborative practices,33,32,0.96969697,"Open science and
+collaborative
+practices"
+180,Prior distribution,0.452321223,3,3,Statistical analysis and hypothesis testing,52,46,0.884615385,"Statistical analysis
+and hypothesis
+testing"
+181,Pseudonymisation,0.670689967,2,1,Research credit,77,64,0.831168831,Research credit
+182,Pseudoreplication,0.357758313,2,3,Statistical analysis and hypothesis testing,66,58,0.878787879,"Statistical analysis
+and hypothesis
+testing"
+183,Psychometric meta-analysis,NA,1,3,Statistical analysis and hypothesis testing,39,31,0.794871795,"Statistical analysis
+and hypothesis
+testing"
+184,PubPeer,NA,1,1,Research credit,14,12,0.857142857,Research credit
+185,Public Trust in Science,NA,1,2,Replication and research challenges,98,86,0.87755102,"Replication and
+research challenges"
+186,Publication bias (File Drawer Problem),0.494608593,4,2,Replication and research challenges,103,81,0.786407767,"Replication and
+research challenges"
+187,Publish or Perish,0.474503547,5,2,Replication and research challenges,97,68,0.701030928,"Replication and
+research challenges"
+188,Python,0.474578286,14,6,"Data sharing, reproducibility, and computational tools",246,139,0.56504065,"Data sharing,
+reproducibility, and
+computational tools"
+189,Qualitative research,0.454689931,53,4,"Research design, validity, and theoretical frameworks",1050,409,0.38952381,"Research design,
+validity, and
+theoretical
+frameworks"
+190,Quantitative research,0.404302868,18,4,"Research design, validity, and theoretical frameworks",320,177,0.553125,"Research design,
+validity, and
+theoretical
+frameworks"
+191,Questionable Measurement Practices (QMP),NA,1,2,Replication and research challenges,32,30,0.9375,"Replication and
+research challenges"
+192,Questionable Research Practices or Questionable Reporting Practices (QRPs),NA,1,3,Statistical analysis and hypothesis testing,25,24,0.96,"Statistical analysis
+and hypothesis
+testing"
+193,R,NA,1,6,"Data sharing, reproducibility, and computational tools",51,44,0.862745098,"Data sharing,
+reproducibility, and
+computational tools"
+194,RIOT Science Club,NA,1,5,Open science and collaborative practices,30,28,0.933333333,"Open science and
+collaborative
+practices"
+195,Red Teams,0.299128052,2,4,"Research design, validity, and theoretical frameworks",66,57,0.863636364,"Research design,
+validity, and
+theoretical
+frameworks"
+196,Reflexivity,0.361509796,35,4,"Research design, validity, and theoretical frameworks",697,395,0.566714491,"Research design,
+validity, and
+theoretical
+frameworks"
+197,Registered Report,NA,1,2,Replication and research challenges,73,55,0.753424658,"Replication and
+research challenges"
+198,Registry of Research Data Repositories,NA,1,5,Open science and collaborative practices,25,23,0.92,"Open science and
+collaborative
+practices"
+199,Reliability,0.267837007,90,4,"Research design, validity, and theoretical frameworks",1019,362,0.355250245,"Research design,
+validity, and
+theoretical
+frameworks"
+200,Repeatability,0.302147312,8,3,Statistical analysis and hypothesis testing,109,76,0.697247706,"Statistical analysis
+and hypothesis
+testing"
+201,RepliCATs project,NA,1,2,Replication and research challenges,29,26,0.896551724,"Replication and
+research challenges"
+202,Replicability,0.505417492,2,2,Replication and research challenges,55,52,0.945454545,"Replication and
+research challenges"
+203,Replication Markets,NA,1,2,Replication and research challenges,43,39,0.906976744,"Replication and
+research challenges"
+204,Reporting Guideline,NA,1,2,Replication and research challenges,43,40,0.930232558,"Replication and
+research challenges"
+205,Repository,0.288932987,24,6,"Data sharing, reproducibility, and computational tools",269,173,0.643122677,"Data sharing,
+reproducibility, and
+computational tools"
+206,ReproducibiliTea,NA,1,5,Open science and collaborative practices,35,33,0.942857143,"Open science and
+collaborative
+practices"
+207,Reproducibility,0.361641103,7,4,"Research design, validity, and theoretical frameworks",156,116,0.743589744,"Research design,
+validity, and
+theoretical
+frameworks"
+208,Reproducibility Network,NA,1,5,Open science and collaborative practices,61,54,0.885245902,"Open science and
+collaborative
+practices"
+209,Reproducibility crisis (aka Replicability or replication crisis),0.480044012,2,2,Replication and research challenges,62,54,0.870967742,"Replication and
+research challenges"
+210,Research Contribution Metric (p),NA,1,1,Research credit,29,25,0.862068966,Research credit
+211,Research Cycle,NA,1,2,Replication and research challenges,41,38,0.926829268,"Replication and
+research challenges"
+212,Research Data Management,0.516007413,10,6,"Data sharing, reproducibility, and computational tools",177,104,0.587570621,"Data sharing,
+reproducibility, and
+computational tools"
+213,Research Protocol,0.393797391,3,2,Replication and research challenges,119,95,0.798319328,"Replication and
+research challenges"
+214,Research integrity,0.621403296,3,2,Replication and research challenges,169,113,0.668639053,"Replication and
+research challenges"
+215,Research workflow,NA,1,2,Replication and research challenges,48,39,0.8125,"Replication and
+research challenges"
+216,Researcher degrees of freedom,NA,1,2,Replication and research challenges,53,48,0.905660377,"Replication and
+research challenges"
+217,Responsible Research and Innovation,0.532175666,2,2,Replication and research challenges,50,43,0.86,"Replication and
+research challenges"
+218,Reverse p-hacking,NA,1,3,Statistical analysis and hypothesis testing,14,14,1,"Statistical analysis
+and hypothesis
+testing"
+219,Robustness (analyses),0.201496563,21,4,"Research design, validity, and theoretical frameworks",236,173,0.733050847,"Research design,
+validity, and
+theoretical
+frameworks"
+220,STRANGE,NA,1,2,Replication and research challenges,43,38,0.88372093,"Replication and
+research challenges"
+221,Salami slicing,0.358099459,4,2,Replication and research challenges,103,81,0.786407767,"Replication and
+research challenges"
+222,Scooping,0.196659959,2,2,Replication and research challenges,61,56,0.918032787,"Replication and
+research challenges"
+223,Semantometrics,NA,1,1,Research credit,24,24,1,Research credit
+224,Sensitive research,0.426572072,4,4,"Research design, validity, and theoretical frameworks",87,73,0.83908046,"Research design,
+validity, and
+theoretical
+frameworks"
+225,Sequence-determines-credit approach (SDC),NA,1,1,Research credit,22,16,0.727272727,Research credit
+226,Sherpa Romeo,NA,1,5,Open science and collaborative practices,20,17,0.85,"Open science and
+collaborative
+practices"
+227,Single-blind peer review,NA,1,1,Research credit,17,12,0.705882353,Research credit
+228,Slow science,NA,1,5,Open science and collaborative practices,56,50,0.892857143,"Open science and
+collaborative
+practices"
+229,Social class,0.521493227,7,4,"Research design, validity, and theoretical frameworks",225,144,0.64,"Research design,
+validity, and
+theoretical
+frameworks"
+230,Social integration,0.40904627,11,4,"Research design, validity, and theoretical frameworks",217,156,0.718894009,"Research design,
+validity, and
+theoretical
+frameworks"
+231,"Society for Open, Reliable, and Transparent Ecology and Evolutionary biology (SORTEE)",NA,1,2,Replication and research challenges,39,31,0.794871795,"Replication and
+research challenges"
+232,Society for the Improvement of Psychological Science (SIPS),NA,1,2,Replication and research challenges,42,36,0.857142857,"Replication and
+research challenges"
+233,Specification Curve Analysis,NA,1,3,Statistical analysis and hypothesis testing,67,59,0.880597015,"Statistical analysis
+and hypothesis
+testing"
+234,Statistical Assumptions,0.51202449,2,3,Statistical analysis and hypothesis testing,66,54,0.818181818,"Statistical analysis
+and hypothesis
+testing"
+235,Statistical power,0.439378598,2,3,Statistical analysis and hypothesis testing,80,53,0.6625,"Statistical analysis
+and hypothesis
+testing"
+236,Statistical significance,0.340943457,8,3,Statistical analysis and hypothesis testing,200,124,0.62,"Statistical analysis
+and hypothesis
+testing"
+237,Statistical validity,NA,1,3,Statistical analysis and hypothesis testing,36,33,0.916666667,"Statistical analysis
+and hypothesis
+testing"
+238,StudySwap,NA,1,5,Open science and collaborative practices,33,28,0.848484848,"Open science and
+collaborative
+practices"
+239,Systematic Review,0.47663054,18,2,Replication and research challenges,362,189,0.522099448,"Replication and
+research challenges"
+240,TRUST Principles,NA,1,5,Open science and collaborative practices,28,25,0.892857143,"Open science and
+collaborative
+practices"
+241,Tenzing,NA,1,1,Research credit,62,50,0.806451613,Research credit
+242,The Troubling Trio,NA,1,3,Statistical analysis and hypothesis testing,11,11,1,"Statistical analysis
+and hypothesis
+testing"
+243,Theory,0.364973182,41,4,"Research design, validity, and theoretical frameworks",471,245,0.520169851,"Research design,
+validity, and
+theoretical
+frameworks"
+244,Theory building,0.733730861,2,2,Replication and research challenges,22,14,0.636363636,"Replication and
+research challenges"
+245,Transparency,0.24723026,68,4,"Research design, validity, and theoretical frameworks",990,524,0.529292929,"Research design,
+validity, and
+theoretical
+frameworks"
+246,Transparency Checklist,NA,1,2,Replication and research challenges,61,48,0.786885246,"Replication and
+research challenges"
+247,Triple-blind peer review,NA,1,1,Research credit,26,24,0.923076923,Research credit
+248,Type I error,0.539102487,3,3,Statistical analysis and hypothesis testing,50,32,0.64,"Statistical analysis
+and hypothesis
+testing"
+249,Type II error,0.433657722,3,3,Statistical analysis and hypothesis testing,59,47,0.796610169,"Statistical analysis
+and hypothesis
+testing"
+250,Type M error,NA,1,3,Statistical analysis and hypothesis testing,28,20,0.714285714,"Statistical analysis
+and hypothesis
+testing"
+251,Type S error,NA,1,3,Statistical analysis and hypothesis testing,26,19,0.730769231,"Statistical analysis
+and hypothesis
+testing"
+252,Under-representation,0.270118185,3,4,"Research design, validity, and theoretical frameworks",44,40,0.909090909,"Research design,
+validity, and
+theoretical
+frameworks"
+253,Universal design for learning (UDL),0.49384625,39,4,"Research design, validity, and theoretical frameworks",893,326,0.36506159,"Research design,
+validity, and
+theoretical
+frameworks"
+254,Validity,0.325640867,42,4,"Research design, validity, and theoretical frameworks",514,224,0.435797665,"Research design,
+validity, and
+theoretical
+frameworks"
+255,Version control,0.244111158,4,6,"Data sharing, reproducibility, and computational tools",103,85,0.825242718,"Data sharing,
+reproducibility, and
+computational tools"
+256,WEIRD,0.592535539,2,2,Replication and research challenges,72,59,0.819444444,"Replication and
+research challenges"
+257,Webometrics,0.506554114,2,6,"Data sharing, reproducibility, and computational tools",41,36,0.87804878,"Data sharing,
+reproducibility, and
+computational tools"
+258,Z-Curve,NA,1,3,Statistical analysis and hypothesis testing,63,50,0.793650794,"Statistical analysis
+and hypothesis
+testing"
+259,Zenodo,NA,1,5,Open science and collaborative practices,34,31,0.911764706,"Open science and
+collaborative
+practices"
+260,i10-index,NA,1,1,Research credit,11,11,1,Research credit
+261,p-value,0.581228667,3,3,Statistical analysis and hypothesis testing,101,57,0.564356436,"Statistical analysis
+and hypothesis
+testing"
