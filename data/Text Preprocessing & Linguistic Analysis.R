@@ -135,6 +135,7 @@ df <- df %>%
 
 ## reticulate::py_config() # Identify the Python environment used by R, if needed
 py_install("sentence_transformers")
+
 ## WORD2VEC vectorisation ##
 # Load Python's sentence-transformers module
 sentence_transformers <- import("sentence_transformers")
@@ -150,7 +151,7 @@ cosine_similarity <- function(v1, v2) {
   sum(v1 * v2) / (sqrt(sum(v1^2)) * sqrt(sum(v2^2)))
 }
 
-# Function to calculate pairwise cosine similarities and average similarity for a concept
+# Function to calculate pairwise cosine similarities and average similarity for each term
 calculate_similarity_stats <- function(df) {
   # Embed all definitions
   embeddings <- lapply(df$def_clean, function(def) model$encode(def))
@@ -234,7 +235,7 @@ ks.test(embedding_matrix[, 1], "pnorm",
 qqnorm(embedding_matrix[, 1])
 qqline(embedding_matrix[, 1], col = "red")
 
-# Fit GMM to data for 1 to 10 components and multiple covariance structures
+# Fit GMM to data for 1 to 10 components and multiple covariance structures to determine the most optimal model
 gmm_result <- Mclust(embedding_matrix, G = 1:10, modelNames = c("EEE", "VII", "EEE"))
 
 # Display summary of the GMM model
@@ -243,12 +244,12 @@ summary(gmm_result)
 # Add cluster labels to the data
 aggregated_embeddings <- aggregated_embeddings %>%
   mutate(cluster = as.factor(gmm_result$classification),  # Add cluster labels
-         concept_name = concept)  # Keep concept names for reference
+         concept_name = concept)  # Keep term names for reference
 
 # Add cluster membership probabilities to the data (soft clustering)
 aggregated_embeddings$cluster_probability <- apply(gmm_result$z, 1, max)
 
-# Tokenize concept names and count word frequencies by cluster
+# Tokenize term names and count word frequencies by cluster
 tokenized_concepts <- aggregated_embeddings %>%
   unnest_tokens(word, concept_name) %>%  # Split concept names into individual words
   count(cluster, word, sort = TRUE) %>%  # Count word occurrences per cluster
@@ -283,7 +284,7 @@ umap_result <- umap(embedding_matrix, n_neighbors = 15, min_dist = 0.01)  # Perf
 umap_df <- as.data.frame(umap_result$layout)  # Extract the 2D UMAP coordinates
 colnames(umap_df) <- c("UMAP1", "UMAP2")  # Name the UMAP dimensions
 
-# Add cluster and concept labels
+# Add cluster and term labels
 umap_df <- umap_df %>%
   mutate(
     cluster = aggregated_embeddings$cluster,
@@ -291,6 +292,7 @@ umap_df <- umap_df %>%
     cluster_name = cluster_names[cluster]
   )
 
+## Export the clustering results for app visualisation
 # write.csv(umap_df, "umap_df.csv")
 
 # Plot with cluster names
@@ -302,7 +304,7 @@ ggplot(umap_df, aes(x = UMAP1, y = UMAP2, color = cluster_name, label = concept_
   theme_minimal() +
   theme(legend.position = "right")
 
-# Store cluster memberships of concepts
+# Store cluster memberships of terms
 # Ensure aggregated_embeddings has cluster and concept columns
 aggregated_embeddings <- aggregated_embeddings %>%
   mutate(cluster = as.factor(gmm_result$classification))  # Add cluster labels
@@ -311,9 +313,10 @@ aggregated_embeddings <- aggregated_embeddings %>%
 aggregated_embeddings <- aggregated_embeddings %>%
   mutate(cluster_name = cluster_names[cluster])
 
+## Export the embeddings for documentation
 # write.csv(aggregated_embeddings, "by_term_embeddings.csv")
 
-# Create a dataframe with concept names, cluster IDs, and cluster names
+# Create a dataframe with term names, cluster IDs, and cluster names
 concept_clusters <- aggregated_embeddings %>%
   select(concept, cluster, cluster_name)
 
@@ -325,10 +328,10 @@ by_concept_df <- average_similarity_per_concept %>%
 ## TYPE & TOKEN ANALYSIS ##
 ###########################
 
-# Aggregate all words in def_clean by concept
+# Aggregate all words in def_clean by concept (terms)
 aggregated_words <- df %>%
   group_by(concept) %>%
-  summarise(all_words = paste(def_clean, collapse = " ")) %>%  # Combine all definitions for each concept
+  summarise(all_words = paste(def_clean, collapse = " ")) %>%  # Combine all definitions for each term
   ungroup()
 
 # Tokenize and calculate types, tokens, and type-to-token ratio
@@ -357,27 +360,27 @@ median(average_similarity_per_concept$total_definitions) # median = 2
 min(average_similarity_per_concept$total_definitions) # min = 1
 max(average_similarity_per_concept$total_definitions) # max = 266
 
-# Count the number of concepts per cluster
+# Count the number of terms per cluster
 by_concept_df %>%
   group_by(cluster_name) %>%
   summarise(concept_count = n(), .groups = "drop")
 
-# Remove concepts that have only 1 definition
+# Remove terms that have only 1 definition
 sim_concept_atleast2 <- by_concept_df %>%
   filter(!is.na(avg_similarity))
 
-# Check how many concepts with only 1 definition were removed
+# Check how many terms with only 1 definition were removed
 nrow(by_concept_df) - nrow(sim_concept_atleast2) # n = 129
 
-# Check how many concepts are left
+# Check how many terms are left
 nrow(sim_concept_atleast2) # n = 132
 
-# 20 concepts with the least similar definitions
+# 20 terms with the least similar definitions
 least_sim_concept <- sim_concept_atleast2 %>%
   arrange(avg_similarity)
 head(least_sim_concept, 20)
 
-# 20 concepts with the most similar definitions
+# 20 terms with the most similar definitions
 most_sim_concept <- sim_concept_atleast2 %>%
   arrange(desc(avg_similarity))
 head(most_sim_concept, 20)
@@ -387,7 +390,6 @@ by_concept_df <- by_concept_df %>%
   mutate(cluster_name_wrapped = str_wrap(cluster_name, width = 20))
 
 ## Comparing average definition similarity across clusters ##
-
 # Plot with wrapped labels
 ggplot(by_concept_df, aes(x = factor(cluster_name_wrapped), y = avg_similarity)) +
   geom_boxplot() +
@@ -490,7 +492,6 @@ ggplot(tukey_plot_data, aes(x = comparison, y = diff)) +
   theme_minimal()
 
 ## Comparing no. of types across clusters ##
-
 # Plot with wrapped labels
 ggplot(by_concept_df, aes(x = factor(cluster_name_wrapped), y = types)) +
   geom_boxplot() +
