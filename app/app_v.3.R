@@ -1153,7 +1153,7 @@ server <- function(input, output, session) {
         layout(
           title = paste("Word Frequency for Term:", input$selectedTermWord),
           xaxis = list(title = "Words"),
-          yaxis = list(title = "Frequency")
+          yaxis = list(title = "Frequency", tickformat = ",d")
         )
     })
     
